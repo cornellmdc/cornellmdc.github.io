@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.63" height="138.675" viewBox="0 0 141.63 138.675">
+  <defs>
+    <pattern id="a" data-name="10 dpi 40%" width="28.799" height="28.801" patternTransform="translate(26.72 -27.259)" patternUnits="userSpaceOnUse" viewBox="0 0 28.799 28.801">
+      <rect width="28.799" height="28.801" fill="none"/>
+      <g>
+        <path d="M28.8,31.681A2.88,2.88,0,1,0,25.92,28.8,2.882,2.882,0,0,0,28.8,31.681Z" fill="#fff"/>
+        <path d="M14.4,31.681a2.88,2.88,0,1,0-2.879-2.88A2.881,2.881,0,0,0,14.4,31.681Z" fill="#fff"/>
+        <path d="M28.8,17.281A2.881,2.881,0,1,0,25.92,14.4,2.882,2.882,0,0,0,28.8,17.281Z" fill="#fff"/>
+        <path d="M14.4,17.281A2.881,2.881,0,1,0,11.521,14.4,2.882,2.882,0,0,0,14.4,17.281Z" fill="#fff"/>
+        <path d="M7.2,24.48A2.88,2.88,0,1,0,4.32,21.6,2.881,2.881,0,0,0,7.2,24.48Z" fill="#fff"/>
+        <path d="M21.6,24.48A2.88,2.88,0,1,0,18.719,21.6,2.879,2.879,0,0,0,21.6,24.48Z" fill="#fff"/>
+        <path d="M7.2,10.08A2.88,2.88,0,1,0,4.32,7.2,2.881,2.881,0,0,0,7.2,10.08Z" fill="#fff"/>
+        <path d="M21.6,10.08A2.88,2.88,0,1,0,18.719,7.2,2.879,2.879,0,0,0,21.6,10.08Z" fill="#fff"/>
+      </g>
+      <g>
+        <path d="M0,31.681A2.882,2.882,0,0,0,2.88,28.8,2.88,2.88,0,0,0,0,25.921,2.878,2.878,0,0,0-2.879,28.8,2.88,2.88,0,0,0,0,31.681Z" fill="#fff"/>
+        <path d="M0,17.281A2.882,2.882,0,0,0,2.88,14.4,2.882,2.882,0,0,0,0,11.52,2.88,2.88,0,0,0-2.879,14.4,2.88,2.88,0,0,0,0,17.281Z" fill="#fff"/>
+      </g>
+      <g>
+        <path d="M28.8,2.88A2.882,2.882,0,0,0,31.68,0,2.88,2.88,0,0,0,28.8-2.88,2.879,2.879,0,0,0,25.92,0,2.88,2.88,0,0,0,28.8,2.88Z" fill="#fff"/>
+        <path d="M14.4,2.88A2.881,2.881,0,0,0,17.28,0,2.88,2.88,0,0,0,14.4-2.88,2.879,2.879,0,0,0,11.521,0,2.88,2.88,0,0,0,14.4,2.88Z" fill="#fff"/>
+      </g>
+      <path d="M0,2.88A2.882,2.882,0,0,0,2.88,0,2.88,2.88,0,0,0,0-2.88,2.878,2.878,0,0,0-2.879,0,2.88,2.88,0,0,0,0,2.88Z" fill="#fff"/>
+    </pattern>
+  </defs>
+  <g>
+    <line x1="14.442" y1="36.791" x2="27.383" y2="44.262" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="67.757" y1="138.17" x2="27.167" y2="114.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="14.442" y1="36.791" x2="81.933" y2="5.154" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.547,37.41c-.04-.21-.07-.41-.1-.62" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="89.118" y1="9.302" x2="81.933" y2="5.154" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="128.901" y1="102.873" x2="128.901" y2="101.431" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="33.514" y1="40.741" x2="49.966" y2="50.24" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="73.872" y1="134.231" x2="73.872" y2="89.634" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33.5,40.732,95.233,5.772" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M135.016,97.9l-61.144,36.33" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M73.837,134.15c-2.02,1.2-4.05,2.41-6.08,3.61q-20.19-46.755-40.37-93.5,3.06-1.74,6.13-3.48Q53.677,87.475,73.837,134.15Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)"/>
+    <path d="M33.517,40.78c-.01-.02-.01-.03-.02-.05" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M73.867,134.23c-.01-.03-.02-.05-.03-.08" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M56.08,46.71l60.968-35.4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M141.13,50.992,79.986,86.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="79.986" y1="60.512" x2="141.13" y2="25.211" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M73.867,134.13c-.01.01-.02.01-.03.02" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.184" y1="8.318" x2="61.643" y2="0.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="33.527" y1="40.78" x2="33.517" y2="40.78" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="67.758" y1="138.175" x2="128.901" y2="102.873" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="67.758" y1="138.175" x2="67.758" y2="137.761" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="15.207 37.1 15.087 37.16 14.547 37.41" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27.167,114.75l-6.74,3.16q-6.045-38.79-12.1-77.59l6.22-2.91q5.985,38.475,11.99,76.97Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)"/>
+    <line x1="27.207" y1="114.73" x2="27.167" y2="114.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="61.643" y1="0.5" x2="0.5" y2="35.801" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="106.404" x2="0.5" y2="35.801" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="35.801" x2="8.328" y2="40.321" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="106.404" x2="20.428" y2="117.909" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M79.987,86.1q-3.06,1.77-6.12,3.53-11.94-19.695-23.9-39.39c2.04-1.18,4.07-2.36,6.11-3.53Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)"/>
+    <path d="M57.127,46.1c-.35.2-.7.4-1.05.61" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="135.016" y1="97.901" x2="135.016" y2="54.522" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="110.933" y1="14.837" x2="95.233" y2="5.772" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110.933,14.837l.023.038" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="141.13" y1="50.992" x2="141.13" y2="25.211" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="79.986" y1="86.104" x2="79.986" y2="60.512" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="141.13" y1="25.211" x2="117.048" y2="11.307" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
