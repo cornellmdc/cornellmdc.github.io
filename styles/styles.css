@@ -14833,5 +14833,8 @@ a:hover {
 .section__home p {
   font-weight: 600;
 }
+.section__home .home-main-img {
+  margin: 1rem 0;
+}
 
 /*# sourceMappingURL=styles.css.map */
