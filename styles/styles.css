@@ -16146,6 +16146,10 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .dropdown-desc {
