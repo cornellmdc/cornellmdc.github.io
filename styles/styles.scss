@@ -14,6 +14,8 @@
 $family-sans-serif: 'Arial';
 $body-background-color: 'black';
 $primary: #fff;
+$gap: 0px !important;
+
 
 /* Sitewide styles */
 body, html {
@@ -22,15 +24,13 @@ body, html {
     
 }
 
-.page {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-      
+.page-title {
+    margin-top: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5rem;
 }
+
 a {
     color: #fff;
     &:hover {
@@ -62,17 +62,6 @@ a {
     }
 }
 
-.center-container {
-    width: 100%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
 /* ----- */
 
 .section__home {
@@ -81,7 +70,94 @@ a {
         font-weight: 600;
     }
     .home-main-img {
-        margin: 1rem 0;
+        margin: 1.5rem 0;
+    }
+}
+
+.section__raw {
+    .event-content {
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        div {
+            width: 50%;
+        }
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+    
+}
+
+.section__portal {
+    .portal-content {
+        height: 55vh;
+    }
+    p, a {
+        font-weight: 600;
+    }
+    .columns {
+        height: 100%;
+        .center-align  {
+            align-self: center;
+        }
+        .bottom-align {
+            align-self: flex-end;
+        }
+    }
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 60%;
+            margin-bottom: 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1408px) {
+    .container:not(.is-max-desktop):not(.is-max-widescreen) {
+        max-width: 1600px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .event-content { 
+        flex-direction: column;
+        div {
+            width: 100% !important;
+            text-align: center;
+            margin-bottom: 2rem;
+            img {
+                width: 50% !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-title {
+        margin-bottom: 2rem;
+    }
+    .nav {
+        flex-direction: column;
+        font-size: 0.8rem;
+        .nav__left {
+            .logo {
+                max-width: 80px;
+            }
+            margin-bottom: 1rem;
+        }
+        .nav__right {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            a {
+                margin-left: 0;
+                margin-right: 10px;
+            }
+        }
     }
 }
 

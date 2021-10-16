@@ -14775,13 +14775,11 @@ body, html {
   color: #fff;
 }
 
-.page {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
+.page-title {
+  margin-top: 5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 a {
@@ -14814,18 +14812,6 @@ a:hover {
   margin-left: 1.5rem;
 }
 
-.center-container {
-  width: 100%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
 /* ----- */
 .section__home {
   text-align: center;
@@ -14834,7 +14820,88 @@ a:hover {
   font-weight: 600;
 }
 .section__home .home-main-img {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+}
+
+.section__raw .event-content {
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+}
+.section__raw .event-content div {
+  width: 50%;
+}
+.section__raw .event-content p {
+  margin-bottom: 2rem;
+}
+
+.section__portal .portal-content {
+  height: 55vh;
+}
+.section__portal p, .section__portal a {
+  font-weight: 600;
+}
+.section__portal .columns {
+  height: 100%;
+}
+.section__portal .columns .center-align {
+  align-self: center;
+}
+.section__portal .columns .bottom-align {
+  align-self: flex-end;
+}
+.section__portal .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__portal .team img {
+  width: 60%;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 1600px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .event-content {
+    flex-direction: column;
+  }
+  .event-content div {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .event-content div img {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .page-title {
+    margin-bottom: 2rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+  .nav .nav__left {
+    margin-bottom: 1rem;
+  }
+  .nav .nav__left .logo {
+    max-width: 80px;
+  }
+  .nav .nav__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .nav .nav__right a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
