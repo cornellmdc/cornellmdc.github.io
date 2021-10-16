@@ -1,0 +1,41 @@
+{
+    "eboard": [
+        {
+            "name": "Miram Gitelman",
+            "role": "President",
+            "major": "Architecture '24"
+        },
+        {
+            "name": "Jennifer Lee",
+            "role": "vice president",
+            "role2": "treasurer",
+            "major": "mech. engineering '22"
+        },
+        {
+            "name": "Helen Li",
+            "role": "Social Chair",
+            "major": "Biological Sciences '22",
+            "major2": "English '22"
+        },
+        {
+            "name": "?????",
+            "role": "Webmaster",
+            "major": "Computer Science '24"
+        },
+        {
+            "name": "Sehar Mepara",
+            "role": "Education Lead",
+            "major": "Fine Arts '24"
+        },
+        {
+            "name": "Ryun Shim",
+            "role": "Marketing Lead",
+            "major": "Information Science '24"
+        },
+        {
+            "name": "Sarah Langleben",
+            "role": "Incubates Lead",
+            "major": "Information Science '24"
+        }
+    ]
+}
