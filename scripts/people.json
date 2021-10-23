@@ -18,9 +18,9 @@
             "major2": "English '22"
         },
         {
-            "name": "?????",
+            "name": "Iris Kim",
             "role": "Webmaster",
-            "major": "Computer Science '24"
+            "major": "Computer Science '23"
         },
         {
             "name": "Sehar Mepara",
@@ -36,6 +36,115 @@
             "name": "Sarah Langleben",
             "role": "Incubates Lead",
             "major": "Information Science '24"
+        }
+    ],
+    "experience": [
+        {
+            "name": "Lia Chen",
+            "major": "PhD in Psychology/Neuroscience '24~'25"
+        },
+        {
+            "name": "Mark T. Bell",
+            "major": "Architecture '26"
+        },
+        {
+            "name": "Yi Cheng (Ethan) Shao",
+            "major": "Design and Environmental Analysis '24"
+        },
+        {
+            "name": "Valerie Lenis",
+            "major": "Environment & Sustainability '24"
+        }
+    ],
+    "curation": [
+        {
+            "name": "Victoria Lee",
+            "major": "Architecture '26"
+        },
+        {
+            "name": "Clément Xu",
+            "major": "Comparative Literature '23 "
+        },
+        {
+            "name": "Minzie Kim ",
+            "major": "URS (major) & Statistics and Biometry (minor) '23"
+        },
+        {
+            "name": "Elizabeth Ominsky",
+            "major": "Information Science and History of Art '23"
+        },
+        {
+            "name": "Lily Stern",
+            "major": "Design + Environmental Analysis '24"
+        },
+        {
+            "name": "So Young Lee",
+            "major": "Fine Arts '23"
+        }
+    ],
+    "designlab": [
+        {
+            "name": "Eddy Liu",
+            "major": "Design and Environmental Analysis '25"
+        },
+        {
+            "name": "Aroob Jalil",
+            "major": "CS '24"
+        },
+        {
+            "name": "Sehar Mapara",
+            "major": "Fine Arts '24"
+        },
+        {
+            "name": "Ashley Xiang",
+            "major": "Design and Environmental Analysis '24"
+        },
+        {
+            "name": "Xihan He",
+            "major": "Design and Environmental Analysis '24"
+        }
+    ],
+    
+    "incubates": [
+        {
+            "name": "Sofia Echavarria",
+            "major": "Environmental Engineering '25"
+        },
+        {
+            "name": "Emme Wong",
+            "major": "DEA '23"
+        },
+        {
+            "name": "Shirley Ren",
+            "major": "Information Science '22"
+        },
+        {
+            "name": "Ashley Herrera",
+            "major": "Design and Environmental Analysis '24"
+        },
+        {
+            "name": "Patricia Ku",
+            "major": "Hotel and Restaurant Administration 2022, minors in architecture and music"
+        },
+        {
+            "name": "Benjamin Chen",
+            "major": "Communication '21"
+        },
+        {
+            "name": "Emma Wu",
+            "major": "College of Arts & Sciences '25"
+        },
+        {
+            "name": "David Albarracin",
+            "major": "Fine Arts '24"
+        },
+        {
+            "name": "Lindsey Luo - Former Medium President",
+            "major": "CS '22"
+        },
+        {
+            "name": "Jason Tung - Web",
+            "major": "CS '23"
         }
     ]
 }
