@@ -117,9 +117,6 @@ a {
 }
 
 .section__purpose {
-    .clickable-scrolling-div {
-        white-space: normal;
-    }
     .retracting-body {
         visibility: visible;
         padding: 1rem 2.5rem;
@@ -155,7 +152,6 @@ a {
     flex-basis: 0;
     display: flex;
     flex-direction: column;
-    white-space: nowrap;
     font-size: 14px;
   }
   
