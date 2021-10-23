@@ -15,22 +15,25 @@ menus.forEach(menu => {
         menuBody.style.visibility = (menuBody.style.visibility == "hidden") ?
             "visible" : "hidden"
     );
-    fetch('scripts/people.json')
-        .then(response => response.json())
-        .then(f => {
-            if (cat in f) {
-                for (const entry of f[cat]) {
-                    const elem = `<div class="dropdown-entry">
+    if (document.querySelectorAll(".menu-container")[0].classList.contains("section__people")) {
+        fetch('scripts/people.json')
+            .then(response => response.json())
+            .then(f => {
+                if (cat in f) {
+                    for (const entry of f[cat]) {
+                        const elem = `<div class="dropdown-entry">
                         <span class="dropdown-name">${entry["name"]}</span>
                         <span class="dropdown-lower">${entry["role"]}</span> 
     ${"role2" in entry ? `<span class="dropdown-lower">${entry["role2"]}</span>` : ``} 
                         <span class="dropdown-lower">${entry["major"]}</span>
     ${"major2" in entry ? `<span class="dropdown-lower">${entry["major2"]}</span>` : ``} 
                     </div>`;
-                    menuBody.appendChild(htmlFromString(elem))
+                        menuBody.appendChild(htmlFromString(elem))
+                    }
                 }
-            }
-        })
+            })
+    }
+
 })
 
 
