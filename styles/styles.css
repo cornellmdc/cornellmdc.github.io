@@ -14970,8 +14970,7 @@ a:hover {
 
 @media screen and (max-width: 1380px) {
   .menu-container {
-    flex-direction: column;
-    justify-content: flex-start;
+    display: block;
   }
 
   .dropdown-desc {
@@ -15067,5 +15066,3 @@ a:hover {
     margin-right: 10px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */

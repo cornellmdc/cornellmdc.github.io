@@ -227,8 +227,9 @@ a {
 
 @media screen and (max-width: 1380px) {
   .menu-container {
-    flex-direction: column;
-    justify-content: flex-start;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    display: block;
   }
   .dropdown-desc {
     margin-bottom: 28px;
