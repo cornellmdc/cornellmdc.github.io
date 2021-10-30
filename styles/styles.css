@@ -14867,7 +14867,7 @@ a:hover {
   visibility: visible;
   padding: 1rem 2.5rem;
 }
-.section__purpose dropdown-desc {
+.section__purpose .dropdown-desc {
   font-size: 15px;
 }
 
