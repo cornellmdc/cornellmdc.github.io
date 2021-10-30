@@ -28,14 +28,19 @@
             "major": "Fine Arts '24"
         },
         {
+            "name": "Sarah Langleben",
+            "role": "Incubates Lead",
+            "major": "Information Science '24"
+        },
+        {
             "name": "Ryun Shim",
             "role": "Marketing Lead",
             "major": "Information Science '24"
         },
         {
-            "name": "Sarah Langleben",
-            "role": "Incubates Lead",
-            "major": "Information Science '24"
+            "name": "Jason Tung",
+            "role": "Webmaster",
+            "major": "CS '23"
         }
     ],
     "experience": [
@@ -67,11 +72,13 @@
         },
         {
             "name": "Minzie Kim ",
-            "major": "URS (major) & Statistics and Biometry (minor) '23"
+            "major": "URS '23",
+            "major2": "Statistics and Biometry minor"
         },
         {
             "name": "Elizabeth Ominsky",
-            "major": "Information Science and History of Art '23"
+            "major": "Information Science",
+            "major2": "History of Art '23"
         },
         {
             "name": "Lily Stern",
@@ -104,7 +111,6 @@
             "major": "Design and Environmental Analysis '24"
         }
     ],
-    
     "incubates": [
         {
             "name": "Sofia Echavarria",
@@ -124,7 +130,8 @@
         },
         {
             "name": "Patricia Ku",
-            "major": "Hotel and Restaurant Administration 2022, minors in architecture and music"
+            "major": "Hotel and Restaurant Administration '22",
+            "major2": "architecture and music minor"
         },
         {
             "name": "Benjamin Chen",
@@ -139,12 +146,9 @@
             "major": "Fine Arts '24"
         },
         {
-            "name": "Lindsey Luo - Former Medium President",
+            "name": "Lindsey Luo",
+            "role": "Former Medium President",
             "major": "CS '22"
-        },
-        {
-            "name": "Jason Tung - Web",
-            "major": "CS '23"
         }
     ]
 }
