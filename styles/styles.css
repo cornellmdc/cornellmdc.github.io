@@ -14802,6 +14802,9 @@ a:hover {
 .nav .nav__left {
   display: flex;
 }
+.nav .nav__left a {
+  display: contents;
+}
 .nav .nav__left .logo {
   max-width: 100px;
   margin-right: 1rem;
@@ -14857,6 +14860,9 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.section__portal .team a {
+  display: contents;
 }
 .section__portal .team img {
   width: 60%;
@@ -15023,6 +15029,10 @@ a:hover {
   }
 }
 @media screen and (max-width: 450px) {
+  .section__home {
+    padding: 0 1.5rem;
+  }
+
   .page-title {
     margin-bottom: 2rem;
   }
@@ -15047,3 +15057,5 @@ a:hover {
     margin-right: 10px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
