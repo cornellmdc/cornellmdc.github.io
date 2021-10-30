@@ -14883,6 +14883,7 @@ a:hover {
   margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
+  height: calc(100vh - 121px - 140px);
 }
 
 @media screen and (max-width: 768px) {
@@ -14899,7 +14900,7 @@ a:hover {
 }
 
 .limit-width {
-  flex: 0 1 220px;
+  flex: 0 1 240px;
 }
 
 .shrinking-spacing {
@@ -14964,6 +14965,7 @@ a:hover {
 @media screen and (max-width: 1380px) {
   .menu-container {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .dropdown-desc {
@@ -14971,7 +14973,15 @@ a:hover {
   }
 
   .retracting-body {
-    max-height: calc(100vh - 350px);
+    max-height: none;
+  }
+
+  .shrinking-spacing {
+    display: none;
+  }
+
+  .clickable-scrolling-div {
+    margin-bottom: 32px;
   }
 }
 .retracting-body::-webkit-scrollbar-thumb {
