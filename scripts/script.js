@@ -10,10 +10,14 @@ menus.forEach(menu => {
     const menuHead = menu.querySelector(".clickable-head");
     const cat = menuHead.innerText.toLowerCase();
     const menuBody = menu.querySelector(".retracting-body");
-    menuBody.style.visibility = "hidden"
-    menuHead.addEventListener('click', () =>
-        menuBody.style.visibility = (menuBody.style.visibility == "hidden") ?
-            "visible" : "hidden"
+    menuBody.style.display = "none"
+    console.log(menuBody.style.display)
+    menuHead.addEventListener('click', () => {
+
+        console.log(menuBody.style.display);
+        menuBody.style.display = (menuBody.style.display == "none") ?
+            "flex" : "none"
+    }
     );
     if (document.querySelectorAll(".menu-container")[0].classList.contains("section__people")) {
         fetch('scripts/people.json')
@@ -23,7 +27,7 @@ menus.forEach(menu => {
                     for (const entry of f[cat]) {
                         const elem = `<div class="dropdown-entry">
                         <span class="dropdown-name">${entry["name"]}</span>
-    ${"role" in entry ?  `<span class="dropdown-lower">${entry["role"]}</span>` : ``}
+    ${"role" in entry ? `<span class="dropdown-lower">${entry["role"]}</span>` : ``}
     ${"role2" in entry ? `<span class="dropdown-lower">${entry["role2"]}</span>` : ``} 
                         <span class="dropdown-lower">${entry["major"]}</span>
     ${"major2" in entry ? `<span class="dropdown-lower">${entry["major2"]}</span>` : ``} 
