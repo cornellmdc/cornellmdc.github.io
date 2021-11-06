@@ -30,14 +30,13 @@ menus.forEach(menu => {
     ${"role" in entry ? `<span class="dropdown-lower">${entry["role"]}</span>` : ``}
     ${"role2" in entry ? `<span class="dropdown-lower">${entry["role2"]}</span>` : ``} 
                         <span class="dropdown-lower">${entry["major"]}</span>
-    ${"major2" in entry ? `<span class="dropdown-lower">${entry["major2"]}</span>` : ``} 
+    ${"major2" in entry ? `<span class="dropdown-lower">${entry["major2"]} minor</span>` : ``} 
                     </div>`;
                         menuBody.appendChild(htmlFromString(elem))
                     }
                 }
             })
     }
-
 })
 
 

@@ -12,8 +12,10 @@
 <body>
     <div class="nav">
         <div class="nav__left">
-            <img class="logo" src="img/whitelogo.svg" alt="Logo">
-            <p>Medium Design Collective</p>
+            <a href="./index.html">
+                <img class="logo" src="img/whitelogo.svg" alt="Logo">
+                <p>Medium Design Collective</p>
+            </a>
         </div>
         <div class="nav__right">
             <a href="./index.html">Home</a>
@@ -23,17 +25,37 @@
             <a href="./raw.html">Raw 2021</a>
             <a href="./contact.html">Contact</a>
         </div>
+        <button class="mobile-nav-button" onclick=mobileMenuDrop()>MENU</button>
     </div>
-
-
+    <div class="overlay-nav">
+        <a class="exit" onclick=mobileMenuClose()>&times;</a>
+        <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a href="./purpose.html">Purpose</a>
+            <a href="./people.html">People</a>
+            <a href="./portal.html">Portal</a>
+            <a href="./raw.html">Raw 2021</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </div>
+    
     <div class="container section__contact">
         <p class="page-title">Contact Information</p>
         <div class="contact-content">
-           <p>Email:</p>
-           <a href="mailto:mediumdesigncollective@gmail.com">mediumdesigncollective@gmail.com</a>
+            <div class="group">
+                <p>Email</p>
+                <a href="mailto:mediumdesigncollective@gmail.com">mediumdesigncollective@gmail.com</a>
+            </div>
+            <div class="group">
+                <p>Instagram</p>
+                <a href="https://www.instagram.com/mediumdesign/">@mediumdesign</a>
+            </div>
+            <div class="group">
+                <p>Facebook</p>
+                <a href="https://www.facebook.com/mediumdesigncollective">@Medium Design Collective</a>
+            </div>
         </div>
     </div>
-
+    <script src="./scripts/index.js"></script>
 </body>
-
 </html>

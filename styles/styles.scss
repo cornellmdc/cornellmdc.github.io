@@ -62,6 +62,51 @@ a {
       margin-left: 1.5rem;
     }
   }
+
+  .mobile-nav-button {
+    display: none;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+}
+
+.overlay-nav {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      font-size: 1.15rem;
+      margin-bottom: 1.5rem;
+    }
+    a:hover {
+      font-weight: bold; 
+    }
+  }
+  .exit {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
 }
 
 /* ----- */
@@ -89,6 +134,9 @@ a {
     p {
       margin-bottom: 2rem;
     }
+  }
+  .images {
+    padding: 0 1.5rem;
   }
 }
 
@@ -138,7 +186,10 @@ a {
     font-weight: 600;
   }
   .contact-content {
-    text-align: center;
+    .group {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
   }
 }
 
@@ -189,6 +240,11 @@ a {
   text-align: center;
   margin-top: 12px;
   margin-bottom: 40px;
+}
+
+.dropdown-icon {
+  float: right;
+  margin: 1px;
 }
 
 .dropdown-entry {
@@ -284,6 +340,16 @@ a {
   }
 }
 
+@media only screen and (max-width: 943px) {
+  .nav__right {
+    display: none;
+  }
+  .mobile-nav-button {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .section__portal .team img {
     width: 75%;
@@ -304,22 +370,9 @@ a {
     margin-bottom: 2rem;
   }
   .nav {
-    flex-direction: column;
-    font-size: 0.8rem;
     .nav__left {
-      .logo {
-        max-width: 80px;
-      }
-      width: 100%;
-      margin-bottom: 1rem;
-    }
-    .nav__right {
-      display: flex;
-      flex-wrap: wrap;
-      // justify-content: space-around;
-      a {
-        margin-left: 0;
-        margin-right: 10px;
+      p {
+        display: none;
       }
     }
   }

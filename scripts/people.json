@@ -9,28 +9,7 @@
             "name": "Jennifer Lee",
             "role": "vice president",
             "role2": "treasurer",
-            "major": "mech. engineering '22"
-        },
-        {
-            "name": "Helen Li",
-            "role": "Social Chair",
-            "major": "Biological Sciences '22",
-            "major2": "English '22"
-        },
-        {
-            "name": "Iris Kim",
-            "role": "Webmaster",
-            "major": "Computer Science '23"
-        },
-        {
-            "name": "Sehar Mepara",
-            "role": "Education Lead",
-            "major": "Fine Arts '24"
-        },
-        {
-            "name": "Sarah Langleben",
-            "role": "Incubates Lead",
-            "major": "Information Science '24"
+            "major": "Mechanical Engineering '22"
         },
         {
             "name": "Ryun Shim",
@@ -38,9 +17,34 @@
             "major": "Information Science '24"
         },
         {
+            "name": "Sehar Mepara",
+            "role": "Education Lead",
+            "major": "Fine Arts '24"
+        },
+        {
+            "name": "Nancy Kwon",
+            "role": "Incubates",
+            "major": "Design and Environmental Analysis '23"
+        },
+        {
+            "name": "Sarah Langleben",
+            "role": "Incubates Lead",
+            "major": "Information Science '24"
+        },
+        {
+            "name": "Tan Halacoglu",
+            "role": "Events Lead",
+            "major": "Architecture '23"
+        },
+        {
+            "name": "Iris Kim",
+            "role": "Webmaster",
+            "major": "Computer Science '23"
+        },
+        {
             "name": "Jason Tung",
             "role": "Webmaster",
-            "major": "CS '23"
+            "major": "Computer Science '23"
         }
     ],
     "experience": [
@@ -96,7 +100,7 @@
         },
         {
             "name": "Aroob Jalil",
-            "major": "CS '24"
+            "major": "Computer Science '24"
         },
         {
             "name": "Sehar Mapara",
@@ -131,7 +135,7 @@
         {
             "name": "Patricia Ku",
             "major": "Hotel and Restaurant Administration '22",
-            "major2": "architecture and music minor"
+            "major2": "Architecture and Music"
         },
         {
             "name": "Benjamin Chen",
@@ -144,11 +148,6 @@
         {
             "name": "David Albarracin",
             "major": "Fine Arts '24"
-        },
-        {
-            "name": "Lindsey Luo",
-            "role": "Former Medium President",
-            "major": "CS '22"
         }
     ]
 }
