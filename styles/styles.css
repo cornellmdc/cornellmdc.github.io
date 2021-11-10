@@ -14985,6 +14985,12 @@ a:hover {
 .dropdown-icon {
   float: right;
   margin: 1px;
+  transition: transform 0.1s ease-in;
+}
+
+.dropdown-icon-rotated {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
 
 .dropdown-entry {

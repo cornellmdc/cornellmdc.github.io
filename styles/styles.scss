@@ -83,7 +83,7 @@ a {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgba(0,0,0, 0.95);
+  background-color: rgba(0, 0, 0, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
   .overlay-content {
@@ -98,7 +98,7 @@ a {
       margin-bottom: 1.5rem;
     }
     a:hover {
-      font-weight: bold; 
+      font-weight: bold;
     }
   }
   .exit {
@@ -245,6 +245,12 @@ a {
 .dropdown-icon {
   float: right;
   margin: 1px;
+  transition: transform 0.1s ease-in;
+}
+
+.dropdown-icon-rotated {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
 
 .dropdown-entry {
