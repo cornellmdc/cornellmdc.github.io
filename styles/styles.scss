@@ -32,6 +32,7 @@ html {
 
 a {
   color: #fff;
+
   &:hover {
     color: #fff;
   }
@@ -48,16 +49,20 @@ a {
 
   .nav__left {
     display: flex;
+
     a {
       display: contents;
     }
+
     .logo {
       max-width: 100px;
       margin-right: 1rem;
     }
   }
+
   .nav__right {
     text-transform: uppercase;
+
     a {
       margin-left: 1.5rem;
     }
@@ -86,6 +91,7 @@ a {
   background-color: rgba(0, 0, 0, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
+
   .overlay-content {
     position: relative;
     top: 25%;
@@ -93,14 +99,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     a {
       font-size: 1.15rem;
       margin-bottom: 1.5rem;
     }
+
     a:hover {
       font-weight: bold;
     }
   }
+
   .exit {
     position: absolute;
     top: 20px;
@@ -113,9 +122,11 @@ a {
 
 .section__home {
   text-align: center;
+
   p {
     font-weight: 600;
   }
+
   .home-main-img {
     margin: 1.5rem 0;
   }
@@ -127,14 +138,17 @@ a {
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+
     div {
       width: 50%;
       padding: 0 1.5rem;
     }
+
     p {
       margin-bottom: 2rem;
     }
   }
+
   .images {
     padding: 0 1.5rem;
   }
@@ -144,26 +158,33 @@ a {
   .portal-content {
     height: 55vh;
   }
+
   p,
   a {
     font-weight: 600;
   }
+
   .columns {
     height: 100%;
+
     .center-align {
       align-self: center;
     }
+
     .bottom-align {
       align-self: flex-end;
     }
   }
+
   .team {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     a {
       display: contents;
     }
+
     img {
       width: 60%;
       margin-bottom: 2.5rem;
@@ -176,6 +197,7 @@ a {
     visibility: visible;
     padding: 1rem 2.5rem;
   }
+
   .dropdown-desc {
     font-size: 15px;
   }
@@ -185,6 +207,7 @@ a {
   p {
     font-weight: 600;
   }
+
   .contact-content {
     .group {
       text-align: center;
@@ -206,6 +229,7 @@ a {
     margin: 80px 60px;
   }
 }
+
 .clickable-scrolling-div {
   flex-grow: 1;
   flex-basis: 0;
@@ -260,7 +284,7 @@ a {
   margin-right: 8px;
 }
 
-.dropdown-entry > * {
+.dropdown-entry>* {
   display: block;
   flex-basis: 0;
 }
@@ -277,7 +301,6 @@ a {
 }
 
 .retracting-body {
-  height: 100%;
   border: 1.5px solid #fff;
   border-top: none;
   flex-direction: column;
@@ -285,7 +308,7 @@ a {
   max-height: calc(100vh - 300px);
   overflow: auto;
   display: flex;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1380px) {
@@ -294,12 +317,15 @@ a {
     // justify-content: flex-start;
     display: block;
   }
+
   .dropdown-desc {
     margin-bottom: 28px;
   }
+
   .retracting-body {
     max-height: none;
   }
+
   .shrinking-spacing {
     display: none;
   }
@@ -329,12 +355,14 @@ a {
 @media screen and (max-width: 1450px) {
   .event-content {
     flex-direction: column;
+
     div {
       width: 100% !important;
       text-align: center;
       margin-bottom: 2rem;
     }
   }
+
   .section__portal .team img {
     width: 85%;
   }
@@ -350,6 +378,7 @@ a {
   .nav__right {
     display: none;
   }
+
   .mobile-nav-button {
     display: block !important;
     cursor: pointer;
@@ -360,9 +389,11 @@ a {
   .section__portal .team img {
     width: 75%;
   }
+
   .section__portal .team a {
     margin-bottom: 5rem !important;
   }
+
   .section__raw .event-content {
     margin-top: 1rem !important;
   }
@@ -372,9 +403,11 @@ a {
   .section__home {
     padding: 0 1.5rem;
   }
+
   .page-title {
     margin-bottom: 2rem;
   }
+
   .nav {
     .nav__left {
       p {
