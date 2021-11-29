@@ -10,6 +10,7 @@
 @import "bulma/sass/layout/hero.sass";
 @import "bulma/sass/layout/section.sass";
 @import "bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
 
 $family-sans-serif: "Arial";
 $body-background-color: "black";
@@ -132,7 +133,7 @@ a {
   }
 }
 
-.section__raw {
+.section__raw, .section__upcoming {
   .event-content {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -152,6 +153,53 @@ a {
   .images {
     padding: 0 1.5rem;
   }
+}
+
+.section__upcoming {
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .upcoming-img {
+      margin-top: -5rem;
+      max-width: 85%;
+    }
+    .event-name {
+      margin-top: -3rem;
+      width: 100%;
+      text-align: center;
+      .mdc-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .winter-launch-text {
+        font-family: 'Cormorant Garamond', serif;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 3.5rem;
+        margin-top: -15px;
+      }
+    }
+    .event-details {
+      display: flex;
+      margin: 4rem 0 2rem 0;
+      border: 2px solid white;
+      border-radius: 33px;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      p {
+        margin: 0;
+        font-style: italic;
+      }
+    }
+    .feature-text {
+      font-weight: 700;
+    }
+  }
+  .event-link {
+    text-decoration: underline;
+    font-style: italic;
+  } 
 }
 
 .section__portal {
@@ -413,6 +461,32 @@ a {
       p {
         display: none;
       }
+    }
+  }
+  .section__upcoming {
+    .upcoming-img {
+      max-width: 100% !important;
+      margin-top: -2rem !important;
+    }
+    .event-name {
+      margin-top: 0 !important;
+      .mdc-text {
+        font-size: 1rem !important;
+        margin-bottom: 5px !important;
+      }
+      .winter-launch-text {
+        font-size: 2rem !important;
+      }
+    }
+   
+    .event-details {
+      margin: 0 0 1rem !important;
+      p  {
+        font-size: 0.9rem !important;
+      }
+    }
+    .feature-text {
+      font-size: 0.9rem;
     }
   }
 }
