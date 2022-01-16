@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155.885" height="164.938" viewBox="0 0 155.885 164.938">
+  <defs>
+    <pattern id="a" data-name="10 dpi 40%" width="28.799" height="28.801" patternTransform="translate(8.494 -9.861)" patternUnits="userSpaceOnUse" viewBox="0 0 28.799 28.801">
+      <rect width="28.799" height="28.801" fill="none"/>
+      <g>
+        <path d="M28.8,31.681A2.88,2.88,0,1,0,25.92,28.8,2.882,2.882,0,0,0,28.8,31.681Z" fill="#fff"/>
+        <path d="M14.4,31.681a2.88,2.88,0,1,0-2.879-2.88A2.881,2.881,0,0,0,14.4,31.681Z" fill="#fff"/>
+        <path d="M28.8,17.281A2.881,2.881,0,1,0,25.92,14.4,2.882,2.882,0,0,0,28.8,17.281Z" fill="#fff"/>
+        <path d="M14.4,17.281A2.881,2.881,0,1,0,11.521,14.4,2.882,2.882,0,0,0,14.4,17.281Z" fill="#fff"/>
+        <path d="M7.2,24.48A2.88,2.88,0,1,0,4.32,21.6,2.881,2.881,0,0,0,7.2,24.48Z" fill="#fff"/>
+        <path d="M21.6,24.48A2.88,2.88,0,1,0,18.719,21.6,2.879,2.879,0,0,0,21.6,24.48Z" fill="#fff"/>
+        <path d="M7.2,10.08A2.88,2.88,0,1,0,4.32,7.2,2.881,2.881,0,0,0,7.2,10.08Z" fill="#fff"/>
+        <path d="M21.6,10.08A2.88,2.88,0,1,0,18.719,7.2,2.879,2.879,0,0,0,21.6,10.08Z" fill="#fff"/>
+      </g>
+      <g>
+        <path d="M0,31.681A2.882,2.882,0,0,0,2.88,28.8,2.88,2.88,0,0,0,0,25.921,2.878,2.878,0,0,0-2.879,28.8,2.88,2.88,0,0,0,0,31.681Z" fill="#fff"/>
+        <path d="M0,17.281A2.882,2.882,0,0,0,2.88,14.4,2.882,2.882,0,0,0,0,11.52,2.88,2.88,0,0,0-2.879,14.4,2.88,2.88,0,0,0,0,17.281Z" fill="#fff"/>
+      </g>
+      <g>
+        <path d="M28.8,2.88A2.882,2.882,0,0,0,31.68,0,2.88,2.88,0,0,0,28.8-2.88,2.879,2.879,0,0,0,25.92,0,2.88,2.88,0,0,0,28.8,2.88Z" fill="#fff"/>
+        <path d="M14.4,2.88A2.881,2.881,0,0,0,17.28,0,2.88,2.88,0,0,0,14.4-2.88,2.879,2.879,0,0,0,11.521,0,2.88,2.88,0,0,0,14.4,2.88Z" fill="#fff"/>
+      </g>
+      <path d="M0,2.88A2.882,2.882,0,0,0,2.88,0,2.88,2.88,0,0,0,0-2.88,2.878,2.878,0,0,0-2.879,0,2.88,2.88,0,0,0,0,2.88Z" fill="#fff"/>
+    </pattern>
+  </defs>
+  <g>
+    <line x1="142.474" y1="45.21" x2="117.515" y2="30.8" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="28.166" y1="128.249" x2="29.401" y2="128.962" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.16" y1="51.418" x2="77.941" y2="82.469" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="142.474" y1="72.777" x2="142.474" y2="45.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="112.276" x2="0.5" y2="37.759" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="65.034" y1="0.5" x2="0.5" y2="37.759" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="112.276" x2="15.259" y2="120.797" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0.5" y1="37.759" x2="11.253" y2="43.967" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="104.608" y1="23.348" x2="65.034" y2="0.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M61.128,45.746c-12.094,2.348-24.439,4.238-36.962,5.67,1.182,6.2,2.171,12.36,2.968,18.43a252.135,252.135,0,0,1,1.846,49.1c-4.533.679-9.126,1.3-13.718,1.846a244.5,244.5,0,0,0-1.034-58.4q-1.2-9.1-2.968-18.414c12.522-1.433,24.867-3.337,36.962-5.685A423.313,423.313,0,0,0,104.6,23.344c.635,3.737,1.181,7.413,1.683,11.1A428.342,428.342,0,0,1,61.128,45.746Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)"/>
+    <line x1="106.285" y1="34.464" x2="106.285" y2="34.449" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="77.941" y1="82.469" x2="142.474" y2="45.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="90.847" y1="164.438" x2="155.381" y2="127.179" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="155.381" y1="127.179" x2="155.381" y2="80.229" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="90.847" y1="164.438" x2="90.847" y2="133.962" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M155.385,80.227a124.445,124.445,0,0,0-24.055,13.6c-14.427,10.278-28.279,24.011-40.476,40.137a73.8,73.8,0,0,0-10.573-3.412,52.109,52.109,0,0,0-23.022-.738,39.1,39.1,0,0,0-13.851,5.818c-.37.251-.739.517-1.108.783.044-.295.089-.591.148-.886.5-.62,1-1.24,1.521-1.861q5.227-6.224,11.355-12.241a57.609,57.609,0,0,1,12.05,1.668,75.638,75.638,0,0,1,10.573,3.411c12.2-16.125,26.049-29.858,40.477-40.121a126.729,126.729,0,0,1,19.714-11.652A88.811,88.811,0,0,1,155.385,80.227Z" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="url(#a)"/>
+    <path d="M138.138,74.733a.058.058,0,0,0-.045-.014" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="55.339" y1="121.412" x2="55.324" y2="121.427" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="42.307" y1="136.413" x2="90.847" y2="164.438" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M28.98,118.946q-.309,4.718-.812,9.3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M117.508,30.8c-3.692,1.27-7.442,2.481-11.223,3.647" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M142.479,72.784c-1.447.606-2.894,1.241-4.341,1.949" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M29.394,128.958c.369-.266.738-.517,1.107-.768a39.132,39.132,0,0,1,13.852-5.833,46.066,46.066,0,0,1,10.971-.93" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="77.941" y1="126.511" x2="77.941" y2="82.469" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M29.01,118.946h-.03" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

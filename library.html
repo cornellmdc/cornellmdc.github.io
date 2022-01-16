@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medium Design Collective</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav__left">
+            <a href="./index.html">
+                <img class="logo" src="img/white-logo-filled.svg" alt="Logo">
+                <p>Medium Design Collective</p>
+            </a>
+        </div>
+        <div class="nav__right">
+            <a href="./index.html">Home</a>
+            <a href="./purpose.html">Purpose</a>
+            <a href="./people.html">People</a>
+            <a href="./portal.html">Portal</a>
+            <a href="./upcoming.html">Upcoming</a>
+            <a href="./raw.html">Raw 2021</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <button class="mobile-nav-button" onclick=mobileMenuDrop()>MENU</button>
+    </div>
+    <div class="overlay-nav">
+        <a class="exit" onclick=mobileMenuClose()>&times;</a>
+        <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a href="./purpose.html">Purpose</a>
+            <a href="./people.html">People</a>
+            <a href="./portal.html">Portal</a>
+            <a href="./upcoming.html">Upcoming</a>
+            <a href="./raw.html">Raw 2021</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="container section__library">
+        <div class="library-wrapper">
+            <div class="library-shelves">
+                <div class="book">
+                    <p class="rotate-text">Medium Design Review Volume IV</p>
+                </div>
+                <div class="book">
+                    <p class="rotate-text">Medium Design Review Volume V</p>
+                </div>
+                <div class="book">
+                    <p class="rotate-text">Medium Editorial 2021</p>
+                </div>
+                <div class="book book-tilted">
+                    <p class="rotate-text">Medium Editorial 2022 COMING SOON</p>
+                </div>
+            </div>
+            <div class="library-preview">
+                <p class="editorial-title">Medium Editorial 2021: Beyond Absurd</p>
+                <div class="carousel">
+                    <img src="img/editorial-imgs/2021/Group 1.png">
+                    <img src="img/editorial-imgs/2021/Group 1.png">
+                    <img src="img/editorial-imgs/2021/Group 1.png">
+                </div>
+                <div class="preview-description">
+                    <p>Byline: Author</p>
+                    <p>See the Full Publication on <b><a target="_blank" href="https://issuu.com/mediumdesigncollective">ISSUU</a></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="is-capitalized has-text-centered">Read more on <b><a target="_blank" href="https://issuu.com/mediumdesigncollective">ISSUU</b></p>
+    </div>
+    <script src="./scripts/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/library.js"></script>
+</body>
+
+</html>
