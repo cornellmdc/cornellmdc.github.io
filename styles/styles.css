@@ -14769,11 +14769,27 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem 6rem;
 }
 
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Regular.woff);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Bold.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Bold.woff);
+  font-weight: bold;
+}
 /* Sitewide styles */
 body,
 html {
   background-color: #000;
   color: #fff;
+  font-family: AcuminPro;
 }
 
 .page-title {
@@ -15018,8 +15034,20 @@ a:hover {
   align-content: center;
   max-height: calc(100vh - 300px);
   overflow: auto;
-  display: flex;
+  display: none;
   padding-bottom: 28px;
+}
+
+.apply-button {
+  border: 1.5px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 8px 0;
+  width: 240px;
+  line-height: 150%;
+}
+.apply-button:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1380px) {

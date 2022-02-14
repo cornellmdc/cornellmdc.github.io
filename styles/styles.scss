@@ -11,16 +11,35 @@
 @import "bulma/sass/layout/section.sass";
 @import "bulma/bulma.sass";
 
-$family-sans-serif: "Arial";
+// $family-sans-serif: "Arial";
 $body-background-color: "black";
 $primary: #fff;
 $gap: 0px !important;
+
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Bold.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "AcuminPro";
+  src: url(./fonts/AcuminPro-Bold.woff);
+  font-weight: bold;
+}
 
 /* Sitewide styles */
 body,
 html {
   background-color: #000;
   color: #fff;
+  font-family: AcuminPro;
 }
 
 .page-title {
@@ -83,7 +102,7 @@ a {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgba(0,0,0, 0.95);
+  background-color: rgba(0, 0, 0, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
   .overlay-content {
@@ -98,7 +117,7 @@ a {
       margin-bottom: 1.5rem;
     }
     a:hover {
-      font-weight: bold; 
+      font-weight: bold;
     }
   }
   .exit {
@@ -278,8 +297,20 @@ a {
   align-content: center;
   max-height: calc(100vh - 300px);
   overflow: auto;
-  display: flex;
+  display: none;
   padding-bottom: 28px;
+}
+
+.apply-button {
+  border: 1.5px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 8px 0;
+  width: 240px;
+  line-height: 150%;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 1380px) {
