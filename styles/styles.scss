@@ -10,6 +10,7 @@
 @import "bulma/sass/layout/hero.sass";
 @import "bulma/sass/layout/section.sass";
 @import "bulma/bulma.sass";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap");
 
 // $family-sans-serif: "Arial";
 $body-background-color: "black";
@@ -51,6 +52,7 @@ html {
 
 a {
   color: #fff;
+
   &:hover {
     color: #fff;
   }
@@ -67,16 +69,20 @@ a {
 
   .nav__left {
     display: flex;
+
     a {
       display: contents;
     }
+
     .logo {
       max-width: 100px;
       margin-right: 1rem;
     }
   }
+
   .nav__right {
     text-transform: uppercase;
+
     a {
       margin-left: 1.5rem;
     }
@@ -105,6 +111,7 @@ a {
   background-color: rgba(0, 0, 0, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
+
   .overlay-content {
     position: relative;
     top: 25%;
@@ -112,14 +119,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     a {
       font-size: 1.15rem;
       margin-bottom: 1.5rem;
     }
+
     a:hover {
       font-weight: bold;
     }
   }
+
   .exit {
     position: absolute;
     top: 20px;
@@ -132,30 +142,149 @@ a {
 
 .section__home {
   text-align: center;
+
   p {
     font-weight: 600;
   }
+
   .home-main-img {
     margin: 1.5rem 0;
   }
 }
 
-.section__raw {
+.section__raw,
+.section__upcoming {
   .event-content {
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+
     div {
       width: 50%;
       padding: 0 1.5rem;
     }
+
     p {
       margin-bottom: 2rem;
     }
   }
+
   .images {
     padding: 0 1.5rem;
+  }
+}
+
+.section__library {
+  .library-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    margin-bottom: 1rem;
+    .library-shelves {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      padding: 1.5rem;
+      width: 40%;
+    }
+
+    .library-preview {
+      display: none;
+      flex-direction: column;
+      padding: 1.5rem;
+      padding-left: 3rem;
+      width: 60%;
+      .carousel {
+        display: block;
+      }
+      .editorial-title {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+      .preview-description {
+        margin-top: 1.5rem;
+      }
+    }
+    .book {
+      border: 2px solid white;
+      width: 16%;
+      height: 100%;
+      display: flex;
+      position: relative;
+      white-space: nowrap;
+      align-items: center;
+      margin-right: 1rem;
+
+      &.book-selected,
+      &:hover {
+        background-color: white;
+        color: black !important;
+      }
+
+      &.book-tilted {
+        transform: rotate(-13deg);
+        margin-left: 5rem;
+      }
+      .rotate-text {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        position: absolute;
+        transform: rotate(-90deg);
+        transform-origin: 150px 120px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+      }
+    }
+  }
+}
+
+.section__upcoming {
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .upcoming-img {
+      margin-top: -5rem;
+      max-width: 85%;
+    }
+    .event-name {
+      margin-top: -3rem;
+      width: 100%;
+      text-align: center;
+      .mdc-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .winter-launch-text {
+        font-family: "Cormorant Garamond", serif;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 3.5rem;
+        margin-top: -15px;
+      }
+    }
+    .event-details {
+      display: flex;
+      margin: 4rem 0 2rem 0;
+      border: 2px solid white;
+      border-radius: 33px;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      p {
+        margin: 0;
+        font-style: italic;
+      }
+    }
+    .feature-text {
+      font-weight: 700;
+    }
+  }
+  .event-link {
+    text-decoration: underline;
+    font-style: italic;
   }
 }
 
@@ -163,26 +292,33 @@ a {
   .portal-content {
     height: 55vh;
   }
+
   p,
   a {
     font-weight: 600;
   }
+
   .columns {
     height: 100%;
+
     .center-align {
       align-self: center;
     }
+
     .bottom-align {
       align-self: flex-end;
     }
   }
+
   .team {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     a {
       display: contents;
     }
+
     img {
       width: 60%;
       margin-bottom: 2.5rem;
@@ -195,6 +331,7 @@ a {
     visibility: visible;
     padding: 1rem 2.5rem;
   }
+
   .dropdown-desc {
     font-size: 15px;
   }
@@ -204,6 +341,7 @@ a {
   p {
     font-weight: 600;
   }
+
   .contact-content {
     .group {
       text-align: center;
@@ -225,6 +363,7 @@ a {
     margin: 80px 60px;
   }
 }
+
 .clickable-scrolling-div {
   flex-grow: 1;
   flex-basis: 0;
@@ -264,6 +403,12 @@ a {
 .dropdown-icon {
   float: right;
   margin: 1px;
+  transition: transform 0.1s ease-in;
+}
+
+.dropdown-icon-rotated {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
 
 .dropdown-entry {
@@ -290,7 +435,6 @@ a {
 }
 
 .retracting-body {
-  height: 100%;
   border: 1.5px solid #fff;
   border-top: none;
   flex-direction: column;
@@ -298,7 +442,7 @@ a {
   max-height: calc(100vh - 300px);
   overflow: auto;
   display: none;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .apply-button {
@@ -319,12 +463,15 @@ a {
     // justify-content: flex-start;
     display: block;
   }
+
   .dropdown-desc {
     margin-bottom: 28px;
   }
+
   .retracting-body {
     max-height: none;
   }
+
   .shrinking-spacing {
     display: none;
   }
@@ -354,12 +501,14 @@ a {
 @media screen and (max-width: 1450px) {
   .event-content {
     flex-direction: column;
+
     div {
       width: 100% !important;
       text-align: center;
       margin-bottom: 2rem;
     }
   }
+
   .section__portal .team img {
     width: 85%;
   }
@@ -375,6 +524,7 @@ a {
   .nav__right {
     display: none;
   }
+
   .mobile-nav-button {
     display: block !important;
     cursor: pointer;
@@ -385,9 +535,11 @@ a {
   .section__portal .team img {
     width: 75%;
   }
+
   .section__portal .team a {
     margin-bottom: 5rem !important;
   }
+
   .section__raw .event-content {
     margin-top: 1rem !important;
   }
@@ -397,14 +549,42 @@ a {
   .section__home {
     padding: 0 1.5rem;
   }
+
   .page-title {
     margin-bottom: 2rem;
   }
+
   .nav {
     .nav__left {
       p {
         display: none;
       }
+    }
+  }
+  .section__upcoming {
+    .upcoming-img {
+      max-width: 100% !important;
+      margin-top: -2rem !important;
+    }
+    .event-name {
+      margin-top: 0 !important;
+      .mdc-text {
+        font-size: 1rem !important;
+        margin-bottom: 5px !important;
+      }
+      .winter-launch-text {
+        font-size: 2rem !important;
+      }
+    }
+
+    .event-details {
+      margin: 0 0 1rem !important;
+      p {
+        font-size: 0.9rem !important;
+      }
+    }
+    .feature-text {
+      font-size: 0.9rem;
     }
   }
 }

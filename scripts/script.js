@@ -10,14 +10,19 @@ menus.forEach(menu => {
     const menuHead = menu.querySelector(".clickable-head");
     const cat = menuHead.innerText.toLowerCase();
     const menuBody = menu.querySelector(".retracting-body");
+    const arrow = menu.querySelector(".dropdown-icon");
     menuBody.style.display = "none"
-    console.log(menuBody.style.display)
     menuHead.addEventListener('click', () => {
-
-        console.log(menuBody.style.display);
         menuBody.style.display = (menuBody.style.display == "none") ?
-            "flex" : "none"
+            "flex" : "none";
+        if (menuBody.style.display == "flex") {
+            arrow.classList.add("dropdown-icon-rotated");
+        }
+        else {
+            arrow.classList.remove("dropdown-icon-rotated");
+        }
     }
+
     );
     if (document.querySelectorAll(".menu-container")[0].classList.contains("section__people")) {
         fetch('scripts/people.json')

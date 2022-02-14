@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Bulma Utilities */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap");
 .pagination-previous,
 .pagination-next,
 .pagination-link,
@@ -14887,21 +14888,130 @@ a:hover {
   margin: 1.5rem 0;
 }
 
-.section__raw .event-content {
+.section__raw .event-content,
+.section__upcoming .event-content {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
-.section__raw .event-content div {
+.section__raw .event-content div,
+.section__upcoming .event-content div {
   width: 50%;
   padding: 0 1.5rem;
 }
-.section__raw .event-content p {
+.section__raw .event-content p,
+.section__upcoming .event-content p {
   margin-bottom: 2rem;
 }
-.section__raw .images {
+.section__raw .images,
+.section__upcoming .images {
   padding: 0 1.5rem;
+}
+
+.section__library .library-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  margin-bottom: 1rem;
+}
+.section__library .library-wrapper .library-shelves {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  width: 40%;
+}
+.section__library .library-wrapper .library-preview {
+  display: none;
+  flex-direction: column;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  width: 60%;
+}
+.section__library .library-wrapper .library-preview .carousel {
+  display: block;
+}
+.section__library .library-wrapper .library-preview .editorial-title {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.section__library .library-wrapper .library-preview .preview-description {
+  margin-top: 1.5rem;
+}
+.section__library .library-wrapper .book {
+  border: 2px solid white;
+  width: 16%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  align-items: center;
+  margin-right: 1rem;
+}
+.section__library .library-wrapper .book.book-selected, .section__library .library-wrapper .book:hover {
+  background-color: white;
+  color: black !important;
+}
+.section__library .library-wrapper .book.book-tilted {
+  transform: rotate(-13deg);
+  margin-left: 5rem;
+}
+.section__library .library-wrapper .book .rotate-text {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: 150px 120px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.section__upcoming .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__upcoming .left .upcoming-img {
+  margin-top: -5rem;
+  max-width: 85%;
+}
+.section__upcoming .left .event-name {
+  margin-top: -3rem;
+  width: 100%;
+  text-align: center;
+}
+.section__upcoming .left .event-name .mdc-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.section__upcoming .left .event-name .winter-launch-text {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 3.5rem;
+  margin-top: -15px;
+}
+.section__upcoming .left .event-details {
+  display: flex;
+  margin: 4rem 0 2rem 0;
+  border: 2px solid white;
+  border-radius: 33px;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+.section__upcoming .left .event-details p {
+  margin: 0;
+  font-style: italic;
+}
+.section__upcoming .left .feature-text {
+  font-weight: 700;
+}
+.section__upcoming .event-link {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 .section__portal .portal-content {
@@ -15001,6 +15111,12 @@ a:hover {
 .dropdown-icon {
   float: right;
   margin: 1px;
+  transition: transform 0.1s ease-in;
+}
+
+.dropdown-icon-rotated {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
 
 .dropdown-entry {
@@ -15027,7 +15143,6 @@ a:hover {
 }
 
 .retracting-body {
-  height: 100%;
   border: 1.5px solid #fff;
   border-top: none;
   flex-direction: column;
@@ -15035,7 +15150,7 @@ a:hover {
   max-height: calc(100vh - 300px);
   overflow: auto;
   display: none;
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .apply-button {
@@ -15140,6 +15255,30 @@ a:hover {
 
   .nav .nav__left p {
     display: none;
+  }
+
+  .section__upcoming .upcoming-img {
+    max-width: 100% !important;
+    margin-top: -2rem !important;
+  }
+  .section__upcoming .event-name {
+    margin-top: 0 !important;
+  }
+  .section__upcoming .event-name .mdc-text {
+    font-size: 1rem !important;
+    margin-bottom: 5px !important;
+  }
+  .section__upcoming .event-name .winter-launch-text {
+    font-size: 2rem !important;
+  }
+  .section__upcoming .event-details {
+    margin: 0 0 1rem !important;
+  }
+  .section__upcoming .event-details p {
+    font-size: 0.9rem !important;
+  }
+  .section__upcoming .feature-text {
+    font-size: 0.9rem;
   }
 }
 
