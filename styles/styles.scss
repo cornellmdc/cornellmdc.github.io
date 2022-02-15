@@ -148,7 +148,9 @@ a {
   }
 
   .home-main-img {
-    margin: 1.5rem 0;
+    // margin: 1.5rem 0;
+    margin: -10rem 0 1.5rem;
+    max-width: 80%;
   }
 }
 
@@ -529,13 +531,18 @@ a {
     display: block !important;
     cursor: pointer;
   }
+
+  .home-main-img {
+    margin: 1.5rem 0 1.5rem !important;
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .section__portal .team img {
     width: 75%;
   }
-
+  
   .section__portal .team a {
     margin-bottom: 5rem !important;
   }

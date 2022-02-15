@@ -14885,7 +14885,8 @@ a:hover {
   font-weight: 600;
 }
 .section__home .home-main-img {
-  margin: 1.5rem 0;
+  margin: -10rem 0 1.5rem;
+  max-width: 80%;
 }
 
 .section__raw .event-content,
@@ -15229,6 +15230,11 @@ a:hover {
   .mobile-nav-button {
     display: block !important;
     cursor: pointer;
+  }
+
+  .home-main-img {
+    margin: 1.5rem 0 1.5rem !important;
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 700px) {
