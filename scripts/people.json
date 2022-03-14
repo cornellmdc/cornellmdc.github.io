@@ -60,6 +60,9 @@
         {
             "name": "Valerie Lenis",
             "major": "Environment & Sustainability '24"
+        },
+        {
+            "name": "Muskaan Chugh"
         }
     ],
     "curation": [
@@ -92,9 +95,20 @@
         },
         {
             "name": "Angela Chang"
+        },
+        {
+            "name": "Charlotte Keil"
+        },
+        {
+            "name": "Jiho Lee"
         }
     ],
     "designlab": [
+        {
+            "name": "David Ni",
+            "major": "Architecture ‘24",
+            "major2": "History of Art '23"
+        },
         {
             "name": "Aroob Jalil",
             "major": "Computer Science '24"
@@ -116,12 +130,23 @@
             "major": "Design and Environmental Analysis '24"
         },
         {
-            "name": "David Ni",
-            "major": "Architecture ‘24",
-            "major2": "History of Art '23"
+            "name": "Dahn Forman-Yossifov"
+        },
+        {
+            "name": "Santosh Adhikari"
         }
     ],
     "incubates": [
+        {
+            "name": "Nancy Kwon",
+            "role": "Incubates Lead",
+            "major": "Design and Environmental Analysis '23"
+        },
+        {
+            "name": "Sarah Langleben",
+            "role": "Incubates Lead",
+            "major": "Information Science '24"
+        },
         {
             "name": "Sofia Echavarria",
             "major": "Environmental Engineering '25"
@@ -149,6 +174,12 @@
         },
         {
             "name": "Brandon Leung"
+        },
+        {
+            "name": "Mary Zhang"
+        },
+        {
+            "name": "Rose Davidson"
         }
     ]
 }
