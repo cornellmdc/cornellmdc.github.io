@@ -18742,10 +18742,19 @@ a:hover {
   padding: 0 1.5rem;
 }
 
+.section__library {
+  width: 100%;
+}
+
 .section__library .library-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 100px;
+  width: calc(100% - 200px);
   gap: 96px;
 }
 
@@ -18758,11 +18767,12 @@ a:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   height: calc(100vh - 57px - 64px - 2 * 64px - 24px);
   margin: 64px 0;
+  width: calc(420px + calc(100vh - 57px - 64px - 2 * 64px - 24px) * 0.292371705);
 }
 
 .section__library .book {
@@ -18803,7 +18813,20 @@ a:hover {
 }
 
 .section__library .library-preview {
-  width: 400px;
+  width: calc( 100vw - calc(420px + calc(100vh - 57px - 64px - 2 * 64px - 24px) * 0.292371705) - 200px - 96px);
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__library .editorial-title {
+  font-size: 24px;
+  margin-bottom: 8px;
 }
 
 .section__upcoming .left {

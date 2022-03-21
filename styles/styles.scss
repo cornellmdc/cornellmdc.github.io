@@ -196,17 +196,22 @@ $shelfheight: calc(100vh - 57px - 64px - 2 * 64px - 24px);
 $rotamnt: -16.77deg;
 
 .section__library {
+  width: 100%;
   .library-wrapper {
     display: flex;
+    justify-content: center;
+    margin: 0 100px;
+    width: calc(100% - 200px);
     gap: 96px;
   }
   .library-shelves {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: center;
+    justify-content: left;
     height: $shelfheight;
     margin: 64px 0;
+    width: calc(420px + #{$shelfheight} * 0.292371705);
   }
   .book {
     outline: 2px solid white;
@@ -236,7 +241,17 @@ $rotamnt: -16.77deg;
   }
 
   .library-preview {
-    width: 400px;
+    width: calc(
+      100vw - calc(420px + #{$shelfheight} * 0.292371705) - 200px - 96px
+    );
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    // flex: 1 0 0;
+  }
+  .editorial-title {
+    font-size: 24px;
+    margin-bottom: 8px;
   }
   // .library-wrapper {
   //   display: flex;

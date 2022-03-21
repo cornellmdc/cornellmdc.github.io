@@ -4,7 +4,8 @@
 $('.book').click(function () {
     let firstload = $(".book-selected").length == 0;
     if (firstload) {
-        $(".library-preview").css("display", "block");
+        $(".library-preview").css("display", "flex");
+        $(".library-wrapper").css("justify-content", "space-between");
         $('.carousel').slick({
             infinite: true,
             slidesToShow: 1,
