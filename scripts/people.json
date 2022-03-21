@@ -45,7 +45,7 @@
         {
             "name": "Lily Stern",
             "role": "Treasurer",
-            "major": "Design + Environmental Analysis '24"
+            "major": "Design and Environmental Analysis '24"
         }
     ],
     "experience": [
@@ -62,7 +62,8 @@
             "major": "Environment & Sustainability '24"
         },
         {
-            "name": "Muskaan Chugh"
+            "name": "Muskaan Chugh",
+            "major": "Architecture '24"
         }
     ],
     "curation": [
@@ -97,10 +98,13 @@
             "name": "Angela Chang"
         },
         {
-            "name": "Charlotte Keil"
+            "name": "Charlotte Keil",
+            "major": "Agricultural Sciences '24",
+            "major2": "Communications and fashion studies with Concentration in business"
         },
         {
-            "name": "Jiho Lee"
+            "name": "Jiho Lee",
+            "major": "Computer Science '25"
         }
     ],
     "designlab": [
@@ -130,10 +134,13 @@
             "major": "Design and Environmental Analysis '24"
         },
         {
-            "name": "Dahn Forman-Yossifov"
+            "name": "Dahn Forman-Yossifov",
+            "major": "landscape architecture '25"
         },
         {
-            "name": "Santosh Adhikari"
+            "name": "Santosh Adhikari",
+            "major": "ILR '24",
+            "major2": "Fine Arts"
         }
     ],
     "incubates": [
@@ -173,13 +180,16 @@
             "major": "Chemical Engineering '23"
         },
         {
-            "name": "Brandon Leung"
+            "name": "Brandon Leung",
+            "major": "Arch '26"
         },
         {
-            "name": "Mary Zhang"
+            "name": "Mary Zhang",
+            "major": "Design and Environmental Analysis '25"
         },
         {
-            "name": "Rose Davidson"
+            "name": "Rose Davidson",
+            "major": "Material Science '24"
         }
     ]
 }

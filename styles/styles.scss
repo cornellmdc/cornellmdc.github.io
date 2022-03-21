@@ -192,70 +192,115 @@ a {
   }
 }
 
+$shelfheight: calc(100vh - 57px - 64px - 2 * 64px - 24px);
+$rotamnt: -16.77deg;
+
 .section__library {
   .library-wrapper {
     display: flex;
+    gap: 96px;
+  }
+  .library-shelves {
+    display: flex;
     flex-direction: row;
-    height: 80vh;
-    margin-bottom: 1rem;
-    .library-shelves {
-      margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      padding: 1.5rem;
-      width: 40%;
-    }
-
-    .library-preview {
-      display: none;
-      flex-direction: column;
-      padding: 1.5rem;
-      padding-left: 3rem;
-      width: 60%;
-      .carousel {
-        display: block;
-      }
-      .editorial-title {
-        font-size: 1.2rem;
-        margin-bottom: 1.5rem;
-      }
-      .preview-description {
-        margin-top: 1.5rem;
-      }
-    }
-    .book {
-      border: 2px solid white;
-      width: 16%;
-      height: 100%;
-      display: flex;
-      position: relative;
-      white-space: nowrap;
-      align-items: center;
-      margin-right: 1rem;
-
-      &.book-selected,
-      &:hover {
-        background-color: white;
-        color: black !important;
-      }
-
-      &.book-tilted {
-        transform: rotate(-13deg);
-        margin-left: 5rem;
-      }
-      .rotate-text {
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-        position: absolute;
-        transform: rotate(-90deg);
-        transform-origin: 150px 120px;
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-      }
+    gap: 20px;
+    justify-content: center;
+    height: $shelfheight;
+    margin: 64px 0;
+  }
+  .book {
+    outline: 2px solid white;
+    width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    &:hover {
+      background-color: white;
+      color: black;
     }
   }
+  .library-preview {
+    display: none;
+  }
+  .rotate-text {
+    font-size: 24px;
+    transform: rotate(-90deg) translate(16px, 48px);
+    transform-origin: bottom left;
+    white-space: nowrap;
+  }
+
+  .book-tilted {
+    transform: rotate($rotamnt)
+      translate(0, calc(#{$shelfheight} - #{$shelfheight} * 0.957470703));
+    transform-origin: top left;
+  }
+
+  .library-preview {
+    width: 400px;
+  }
+  // .library-wrapper {
+  //   display: flex;
+  //   flex-direction: row;
+  //   height: 80vh;
+  //   margin-bottom: 1rem;
+  //   .library-shelves {
+  //     margin: 0 auto;
+  //     display: flex;
+  //     flex-direction: row;
+  //     padding: 1.5rem;
+  //     width: 40%;
+  //   }
+
+  //   .library-preview {
+  //     display: none;
+  //     flex-direction: column;
+  //     padding: 1.5rem;
+  //     padding-left: 3rem;
+  //     width: 60%;
+  //     .carousel {
+  //       display: block;
+  //     }
+  //     .editorial-title {
+  //       font-size: 1.2rem;
+  //       margin-bottom: 1.5rem;
+  //     }
+  //     .preview-description {
+  //       margin-top: 1.5rem;
+  //     }
+  //   }
+  //   .book {
+  //     border: 2px solid white;
+  //     width: 16%;
+  //     height: 100%;
+  //     display: flex;
+  //     position: relative;
+  //     white-space: nowrap;
+  //     align-items: center;
+  //     margin-right: 1rem;
+
+  //     &.book-selected,
+  //     &:hover {
+  //       background-color: white;
+  //       color: black !important;
+  //     }
+
+  //     &.book-tilted {
+  //       transform: rotate(-13deg);
+  //       margin-left: 5rem;
+  //     }
+  //     .rotate-text {
+  //       font-size: 1.5rem;
+  //       letter-spacing: 1px;
+  //       position: absolute;
+  //       transform: rotate(-90deg);
+  //       transform-origin: 150px 120px;
+  //       -webkit-transform: rotate(-90deg);
+  //       -moz-transform: rotate(-90deg);
+  //       -ms-transform: rotate(-90deg);
+  //       -o-transform: rotate(-90deg);
+  //     }
+  //   }
+  // }
 }
 
 .section__upcoming {
@@ -306,8 +351,11 @@ a {
 }
 
 .section__portal {
+  margin: 0 156px;
   .portal-content {
-    height: 55vh;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 100px;
   }
 
   p,
@@ -317,7 +365,8 @@ a {
 
   .columns {
     height: 100%;
-
+    margin: 0;
+    margin-top: 32px;
     .center-align {
       align-self: center;
     }
@@ -340,6 +389,13 @@ a {
       width: 60%;
       margin-bottom: 2.5rem;
     }
+  }
+
+  .transup {
+    transform: translate(0, -64px);
+  }
+  .transdown {
+    transform: translate(0, 64px);
   }
 }
 
