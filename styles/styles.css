@@ -18799,14 +18799,16 @@ a:hover {
   color: black;
 }
 
+.section__library .carousel {
+  width: 362px;
+}
+
 .section__library .slick-slide {
-  height: 450px;
-  width: 320px;
+  width: 362px;
 }
 
 .section__library .slick-slide img {
-  height: 450px;
-  width: 320px;
+  width: 362px;
 }
 
 .section__library .library-preview {

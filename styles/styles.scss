@@ -229,14 +229,18 @@ $rotamnt: -16.77deg;
     color: black;
   }
 
+  .carousel {
+    width: 362px;
+  }
+
   .slick-slide {
-    height: 450px;
-    width: 320px;
+    // height: 450px;
+    width: 362px;
   }
 
   .slick-slide img {
-    height: 450px;
-    width: 320px;
+    // height: 450px;
+    width: 362px;
     // width: auto;
   }
   .library-preview {
