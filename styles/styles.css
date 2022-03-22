@@ -18792,6 +18792,19 @@ a:hover {
 .section__library .book:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
+}
+
+.section__library .book-sim {
+  outline: 2px solid white;
+  width: 90px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .section__library .book-selected {

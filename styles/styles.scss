@@ -222,7 +222,15 @@ $rotamnt: -16.77deg;
     &:hover {
       background-color: white;
       color: black;
+      cursor: pointer;
     }
+  }
+  .book-sim {
+    outline: 2px solid white;
+    width: 90px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
   }
   .book-selected {
     background-color: white;
