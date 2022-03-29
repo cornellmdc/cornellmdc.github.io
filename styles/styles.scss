@@ -64,6 +64,21 @@ a {
   }
 }
 
+.nav-holder {
+  height: 121px;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+.popup {
+}
+
+.show {
+  display: block;
+}
+
 .nav {
   border: 1.5px solid #fff;
   margin: 2rem;
@@ -176,8 +191,10 @@ a {
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
 
-    div {
+    .contain-half {
       width: 50%;
       padding: 0 1.5rem;
     }
@@ -347,16 +364,23 @@ $rotamnt: -16.77deg;
 }
 
 .section__upcoming {
+  .event-content {
+    gap: 232px;
+  }
+  .event-description {
+    width: 420px;
+  }
   .left {
     display: flex;
     flex-direction: column;
     align-items: center;
     .upcoming-img {
-      margin-top: -5rem;
-      max-width: 85%;
+      // margin-top: -5rem;
+      // max-width: 85%;
+      flex: 1 0 450px;
     }
     .event-name {
-      margin-top: -3rem;
+      // margin-top: -3rem;
       width: 100%;
       text-align: center;
       .mdc-text {
@@ -368,7 +392,7 @@ $rotamnt: -16.77deg;
         text-transform: uppercase;
         font-style: italic;
         font-size: 3.5rem;
-        margin-top: -15px;
+        // margin-top: -15px;
       }
     }
     .event-details {

@@ -6,43 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Medium Design Collective</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
 </head>
 
 <body>
-    <div class="nav">
-        <div class="nav__left">
-            <a href="./index.html">
-                <img class="logo" src="img/white-logo-filled.svg" alt="Logo">
-                <p>Medium Design Collective</p>
-            </a>
-        </div>
-        <div class="nav__right">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-        <button class="mobile-nav-button" onclick=mobileMenuDrop()>MENU</button>
-    </div>
-    <div class="overlay-nav">
-        <a class="exit" onclick=mobileMenuClose()>&times;</a>
-        <div class="overlay-content">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-    </div>
+    <div class="nav-holder"></div>
 
     <div class="container section__library">
         <div class="library-wrapper">
@@ -64,9 +35,9 @@
                 <div class="prevs" id="prev1">
                     <p class="editorial-title">Medium Design Review Volume I</p>
                     <div class="carousel">
-                        <img src="img/editorial-imgs/review-1/MediumDesignReview 2016_Page_62.png">
-                        <img src="img/editorial-imgs/review-1/MediumDesignReview 2016_Page_14.png">
-                        <img src="img/editorial-imgs/review-1/MediumDesignReview 2016_Page_30.png">
+                        <img src="/img/editorial-imgs/review-1/MediumDesignReview 2016_Page_62.png">
+                        <img src="/img/editorial-imgs/review-1/MediumDesignReview 2016_Page_14.png">
+                        <img src="/img/editorial-imgs/review-1/MediumDesignReview 2016_Page_30.png">
                     </div>
                     <div class="preview-description">
                         <p>Byline: Author</p>
@@ -78,9 +49,9 @@
                 <div class="prevs" id="prev2">
                     <p class="editorial-title">Medium Design Review Volume V: Artifacts for All</p>
                     <div class="carousel">
-                        <img src="img/editorial-imgs/review-5/Editorial 2020_Page_57.png">
-                        <img src="img/editorial-imgs/review-5/Editorial 2020_Page_56.png">
-                        <img src="img/editorial-imgs/review-5/Editorial 2020_Page_45.png">
+                        <img src="/img/editorial-imgs/review-5/Editorial 2020_Page_57.png">
+                        <img src="/img/editorial-imgs/review-5/Editorial 2020_Page_56.png">
+                        <img src="/img/editorial-imgs/review-5/Editorial 2020_Page_45.png">
                     </div>
                     <div class="preview-description">
                         <p>Byline: Author</p>
@@ -92,9 +63,9 @@
                 <div class="prevs" id="prev3">
                     <p class="editorial-title">Medium Editorial 2021: Beyond Absurd</p>
                     <div class="carousel">
-                        <img src="img/editorial-imgs/2021/editorial 20213.png">
-                        <img src="img/editorial-imgs/2021/editorial 20215.png">
-                        <img src="img/editorial-imgs/2021/editorial 20217.png">
+                        <img src="/img/editorial-imgs/2021/editorial 20213.png">
+                        <img src="/img/editorial-imgs/2021/editorial 20215.png">
+                        <img src="/img/editorial-imgs/2021/editorial 20217.png">
                     </div>
                     <div class="preview-description">
                         <p>Byline: Author</p>
@@ -113,7 +84,11 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script src="./scripts/index.js"></script>
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script>
+        enableHeader(".nav-portal");
+    </script>
     <script src="./scripts/library.js"></script>
 
 </body>

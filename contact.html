@@ -6,41 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Medium Design Collective</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
-    <div class="nav">
-        <div class="nav__left">
-            <a href="./index.html">
-                <img class="logo" src="img/white-logo-filled.svg" alt="Logo">
-                <p>Medium Design Collective</p>
-            </a>
-        </div>
-        <div class="nav__right">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-        <button class="mobile-nav-button" onclick=mobileMenuDrop()>MENU</button>
-    </div>
-    <div class="overlay-nav">
-        <a class="exit" onclick=mobileMenuClose()>&times;</a>
-        <div class="overlay-content">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-    </div>
-    
+    <div class="nav-holder"></div>
+
     <div class="container section__contact">
         <p class="page-title">Contact Information</p>
         <div class="contact-content">
@@ -58,6 +29,11 @@
             </div>
         </div>
     </div>
-    <script src="./scripts/index.js"></script>
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script>
+        enableHeader(".nav-contact");
+    </script>
 </body>
+
 </html>

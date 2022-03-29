@@ -6,43 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium Design Collective</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
-    <div class="nav">
-        <div class="nav__left">
-            <a href="./index.html">
-                <img class="logo" src="img/white-logo-filled.svg" alt="Logo">
-                <p>Medium Design Collective</p>
-            </a>
-        </div>
-        <div class="nav__right">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-        <button class="mobile-nav-button" onclick=mobileMenuDrop()>MENU</button>
-    </div>
-    <div class="overlay-nav">
-        <a class="exit" onclick=mobileMenuClose()>&times;</a>
-        <div class="overlay-content">
-            <a href="./index.html">Home</a>
-            <a href="./purpose.html">Purpose</a>
-            <a href="./people.html">People</a>
-            <a href="./portal.html">Portal</a>
-            <a href="./upcoming.html">Upcoming</a>
-            <a href="./raw.html">Raw 2021</a>
-            <a href="./contact.html">Contact</a>
-        </div>
-    </div>
+    <div class="nav-holder"></div>
     <div class="menu-container section__people">
         <div class="clickable-scrolling-div limit-width">
-            <div class="clickable-head">EBoard<img class="dropdown-icon" src="img/menu-dropdown-icon.svg"></div>
+            <div class="clickable-head">EBoard<img class="dropdown-icon" src="/img/menu-dropdown-icon.svg"></div>
             <div class="retracting-body">
                 <div class="dropdown-desc">
                     our governing body
@@ -52,7 +23,7 @@
         <div class="shrinking-spacing">
         </div>
         <div class="clickable-scrolling-div limit-width">
-            <div class="clickable-head">Experience<img class="dropdown-icon" src="img/menu-dropdown-icon.svg"></div>
+            <div class="clickable-head">Experience<img class="dropdown-icon" src="/img/menu-dropdown-icon.svg"></div>
             <div class="retracting-body">
                 <div class="dropdown-desc">our events subteam</div>
             </div>
@@ -60,7 +31,7 @@
         <div class="shrinking-spacing">
         </div>
         <div class="clickable-scrolling-div limit-width">
-            <div class="clickable-head">Curation<img class="dropdown-icon" src="img/menu-dropdown-icon.svg"></div>
+            <div class="clickable-head">Curation<img class="dropdown-icon" src="/img/menu-dropdown-icon.svg"></div>
             <div class="retracting-body">
                 <div class="dropdown-desc">our editorial subteam</div>
 
@@ -69,7 +40,7 @@
         <div class="shrinking-spacing">
         </div>
         <div class="clickable-scrolling-div limit-width">
-            <div class="clickable-head">DesignLab<img class="dropdown-icon" src="img/menu-dropdown-icon.svg"></div>
+            <div class="clickable-head">DesignLab<img class="dropdown-icon" src="/img/menu-dropdown-icon.svg"></div>
             <div class="retracting-body">
                 <div class="dropdown-desc">our experimental graphics team</div>
             </div>
@@ -77,13 +48,17 @@
         <div class="shrinking-spacing">
         </div>
         <div class="clickable-scrolling-div limit-width">
-            <div class="clickable-head">Incubates<img class="dropdown-icon" src="img/menu-dropdown-icon.svg"></div>
+            <div class="clickable-head">Incubates<img class="dropdown-icon" src="/img/menu-dropdown-icon.svg"></div>
             <div class="retracting-body">
                 <div class="dropdown-desc">our competition subteam</div>
             </div>
         </div>
     </div>
-    <script src="./scripts/index.js"></script>
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script>
+        enableHeader(".nav-people");
+    </script>
     <script src="./scripts/script.js"></script>
 </body>
 

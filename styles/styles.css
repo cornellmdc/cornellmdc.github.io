@@ -18584,6 +18584,14 @@ a:hover {
   color: #fff;
 }
 
+.nav-holder {
+  height: 121px;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
 .nav {
   border: 1.5px solid #fff;
   margin: 2rem;
@@ -18724,10 +18732,14 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.section__raw .event-content div,
-.section__upcoming .event-content div {
+.section__raw .event-content .contain-half,
+.section__upcoming .event-content .contain-half {
   width: 50%;
   padding: 0 1.5rem;
 }
@@ -18864,6 +18876,14 @@ a:hover {
   margin-bottom: 8px;
 }
 
+.section__upcoming .event-content {
+  gap: 232px;
+}
+
+.section__upcoming .event-description {
+  width: 420px;
+}
+
 .section__upcoming .left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18878,12 +18898,12 @@ a:hover {
 }
 
 .section__upcoming .left .upcoming-img {
-  margin-top: -5rem;
-  max-width: 85%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 450px;
+          flex: 1 0 450px;
 }
 
 .section__upcoming .left .event-name {
-  margin-top: -3rem;
   width: 100%;
   text-align: center;
 }
@@ -18898,7 +18918,6 @@ a:hover {
   text-transform: uppercase;
   font-style: italic;
   font-size: 3.5rem;
-  margin-top: -15px;
 }
 
 .section__upcoming .left .event-details {
