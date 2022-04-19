@@ -18726,6 +18726,10 @@ a:hover {
   max-width: 80%;
 }
 
+.raw2021-img {
+  height: 515px;
+}
+
 .section__raw .event-content,
 .section__upcoming .event-content {
   margin-top: 2rem;
@@ -18746,6 +18750,16 @@ a:hover {
 .section__upcoming .event-content .contain-half {
   width: 50%;
   padding: 0 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section__raw .event-content p,
@@ -18862,7 +18876,7 @@ a:hover {
       -ms-flex: 0 1 calc(100% - calc(420px + 500px * 0.292371705) - 96px);
           flex: 0 1 calc(100% - calc(420px + 500px * 0.292371705) - 96px);
   height: 500px;
-  display: none;
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
