@@ -268,10 +268,7 @@ $rotamnt: -16.77deg;
     width: 362px;
     // width: auto;
   }
-  .library-preview {
-    display: none;
-    // height: 500px;
-  }
+
   .rotate-text {
     font-size: 24px;
     transform: rotate(-90deg) translate(16px, 48px);
@@ -288,14 +285,25 @@ $rotamnt: -16.77deg;
   .library-preview {
     width: calc(100% - calc(420px + #{$shelfheight} * 0.292371705) - 96px);
     flex: 0 1 calc(100% - calc(420px + #{$shelfheight} * 0.292371705) - 96px);
-    display: none;
+    height: 500px;
+    display: block;
     flex-direction: column;
     justify-content: center;
+    margin: 64px 0;
     // flex: 1 0 0;
   }
   .editorial-title {
     font-size: 24px;
     margin-bottom: 8px;
+  }
+  .cover-review-1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    outline: solid white 2px;
+    background-color: #000;
   }
 
   // .library-wrapper {

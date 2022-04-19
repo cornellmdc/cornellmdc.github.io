@@ -18592,6 +18592,10 @@ a:hover {
   font-weight: bold;
 }
 
+.show {
+  display: block;
+}
+
 .nav {
   border: 1.5px solid #fff;
   margin: 2rem;
@@ -18836,10 +18840,6 @@ a:hover {
   width: 362px;
 }
 
-.section__library .library-preview {
-  display: none;
-}
-
 .section__library .rotate-text {
   font-size: 24px;
   -webkit-transform: rotate(-90deg) translate(16px, 48px);
@@ -18861,6 +18861,7 @@ a:hover {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 calc(100% - calc(420px + 500px * 0.292371705) - 96px);
           flex: 0 1 calc(100% - calc(420px + 500px * 0.292371705) - 96px);
+  height: 500px;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -18869,11 +18870,26 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 64px 0;
 }
 
 .section__library .editorial-title {
   font-size: 24px;
   margin-bottom: 8px;
+}
+
+.section__library .cover-review-1 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 24px;
+  outline: solid white 2px;
+  background-color: #000;
 }
 
 .section__upcoming .event-content {
