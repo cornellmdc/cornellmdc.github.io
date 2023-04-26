@@ -6025,7 +6025,9 @@ hr {
   height: 2px;
   margin: 1.5rem 0;
 }
-
+.descript {
+  margin: 2em;
+}
 img {
   height: auto;
   max-width: 100%;
