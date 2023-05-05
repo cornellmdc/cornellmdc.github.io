@@ -6028,6 +6028,10 @@ hr {
 .descript {
   margin: 2em;
 }
+.description {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
 img {
   height: auto;
   max-width: 100%;
