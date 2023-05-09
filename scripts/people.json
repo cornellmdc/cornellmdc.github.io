@@ -80,6 +80,19 @@
             "name": "Richmond Addae",
             "major": "Industrial and Labor Relations '23",
             "major2": "Fashion, Business, Information Science"
+        },
+        {
+            "name": "Ashley Kim",
+            "major": "Art History '26",
+            "major2": "Visual Studies, Public History"
+        },
+        {
+            "name": "Dillon Bush",
+            "major": "Architecture '27"
+        },
+        {
+            "name": "Zorais Naroo",
+            "major": "Urban and Regional Studies '25"
         }
     ],
     "designlab": [
@@ -95,7 +108,7 @@
         },
         {
             "name": "James Spokes",
-            "major": "Information Science"
+            "major": "Information Science '25"
         },
         {
             "name": "Eddy Liu",
