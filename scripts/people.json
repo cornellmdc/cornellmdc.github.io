@@ -61,46 +61,6 @@
       "name": "Dillion Bush",
       "major": "Editorial Co-lead",
       "major2": "Architecture '28"
-    },
-    {
-      "name": "Zorais Naroo",
-      "major": "Urban and Regional Studies"
-    },
-    {
-      "name": "Athena Choi",
-      "major": "English '25"
-    },
-    {
-      "name": "Jingze Wang",
-      "major": "Design and Environmental Analysis '26",
-      "major 2": "Fashion Studies"
-    },
-    {
-      "name": "Gabriella Bensadoun",
-      "major": "Physics '26",
-      "major 2": "Art, English"
-    },
-    {
-      "name": "Joshua Park",
-      "major": "Industrial and Labor Relations '23"
-    },
-    {
-      "name": "Richmond Addae",
-      "major": "Industrial and Labor Relations '23",
-      "major2": "Fashion, Business, Information Science"
-    },
-    {
-      "name": "Ashley Kim",
-      "major": "Art History '26",
-      "major2": "Visual Studies, Public History"
-    },
-    {
-      "name": "Dillon Bush",
-      "major": "Architecture '27"
-    },
-    {
-      "name": "Zorais Naroo",
-      "major": "Urban and Regional Studies '25"
     }
   ],
   "designlab": [
@@ -113,84 +73,6 @@
       "name": "Matu Sriram",
       "major": "Design Lab Co-lead",
       "major2": "Architecture '28"
-    },
-    {
-      "name": "James Spokes",
-      "major": "Information Science '25"
-    },
-    {
-      "name": "Eddy Liu",
-      "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Cassie Li",
-      "major": "Design and Environmental Analysis '25",
-      "major2": "Business"
-    },
-    {
-      "name": "Chloe Chan",
-      "major": "Computer Science '26"
-    },
-    {
-      "name": "Tiffany Gao",
-      "major": "Information Science '26",
-      "major2": "Game Design"
-    },
-    {
-      "name": "Veranika Sasina",
-      "major": "Chemical Engineering '26"
-    },
-    {
-      "name": "Umi Chun",
-      "major": "Fine Arts '26"
-    },
-    {
-      "name": "Eunice Ngai",
-      "major": "Anthropology '24",
-      "major2": "Information Science"
-    },
-    {
-      "name": "Jenny Chen",
-      "major": "Information Science '25",
-      "major2": "Business"
-    },
-    {
-      "name": "Emily Wang",
-      "major": "Information Science '24",
-      "major2": "Fine arts, business"
-    },
-    {
-      "name": "Angie Ko",
-      "major": "Design and Environmental Analysis '26"
-    },
-    {
-      "name": "Amanda Chen",
-      "major": "Biometry and Statistics '26",
-      "major 2": "Business"
-    },
-    {
-      "name": "Alice Hou",
-      "major": "Fine Arts '26"
-    },
-    {
-      "name": "Amy Zhang",
-      "major": "Fine Arts '25"
-    },
-    {
-      "name": "Jill Thai",
-      "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Bochen Xu",
-      "major": "Urban Planning '25"
-    },
-    {
-      "name": "Mary Zhang",
-      "major": "Information Science '25"
-    },
-    {
-      "name": "Yuna He",
-      "major": "Design and Environmental Analysis '25"
     }
   ],
   "incubates": [
@@ -198,57 +80,6 @@
       "name": "Charlie Mcdonnell",
       "role": "Incubates Lead",
       "major": "Architecture '28"
-    },
-    {
-      "name": "Isabella Ma",
-      "major": "Mechanical Engineering '25"
-    },
-    {
-      "name": "Claire Ahn",
-      "major": "Design and Environmental Analysis '25",
-      "major 2": "Environment and Sustainability"
-    },
-    {
-      "name": "Julia Zhang",
-      "major": "Design and Environmental Analysis '26"
-    },
-    {
-      "name": "Amatullah Ghor",
-      "major": "Applied Economics & Management '26"
-    },
-    {
-      "name": "Sonia Lyakhovich",
-      "major": "Biological Engineering '26"
-    },
-    {
-      "name": "Julius Goldberg",
-      "major": "Mechanical Engineering '26"
-    },
-    {
-      "name": "Jessica Park",
-      "major": "DEA, HBHS '26"
-    },
-    {
-      "name": "Isabella Bettencourt",
-      "major": "Architecture '25",
-      "major 2": "Design and Environmental Analysis"
-    },
-    {
-      "name": "Arden Van Hollebeke",
-      "major": "Design and Environmental Analysis '26"
-    },
-    {
-      "name": "Daniela Clejan",
-      "major": "Hotel Administration '25"
-    },
-    {
-      "name": "Maximillian Dittgen",
-      "major": "Computer Science '25",
-      "major 2": "Biological Engineering"
-    },
-    {
-      "name": "Emme Wong",
-      "major": "Design and Environmental Analysis '23"
     }
   ],
   "praxis": [
@@ -256,54 +87,6 @@
       "name": "Connie Zhang",
       "role": "Praxis Lead",
       "major": "ISST '27"
-    },
-    {
-      "name": "Jenny Yu",
-      "major": "Information Science '25"
-    },
-    {
-      "name": "Amanda Chen",
-      "major": "Biometry and Statistics '26",
-      "major 2": "Business"
-    },
-    {
-      "name": "Sia Harisingani",
-      "major": "Design and Environmental Analysis '26"
-    },
-    {
-      "name": "Alice Hou",
-      "major": "Fine Arts '26"
-    },
-    {
-      "name": "Amy Zhang",
-      "major": "Fine Arts '26"
-    },
-    {
-      "name": "Venus Zheng",
-      "major": "Hotel Administration '26",
-      "major 2": "Information Science"
-    },
-    {
-      "name": "Vannessa Wong",
-      "major": "Information Science '25",
-      "major 2": "Game Design"
-    },
-    {
-      "name": "Yucheng Shu",
-      "major": "Design and Environmental Analysis '26"
-    },
-    {
-      "name": "Nicholas Won",
-      "major": "Information Science '26"
-    },
-    {
-      "name": "Alec Xie",
-      "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Sydney Rothenberg",
-      "major": "Human Development '25",
-      "major 2": "DEA, Information Science"
     }
   ]
 }
