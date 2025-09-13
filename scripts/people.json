@@ -1,39 +1,34 @@
 {
   "eboard": [
     {
+      "name": "Connie Zhang",
+      "role": "President",
+      "major": "ISST '27"
+    },
+    {
+      "name": "Charlie McDonell",
+      "role": "Vice President",
+      "major": "Architecture '28"
+    },
+    {
+      "name": "Rebecca Hu",
+      "role": "Treasurer",
+      "major": "Economics '28"
+    },
+    {
+      "name": "Jackie James",
+      "role": "Social Chair",
+      "major": "Architecture '28"
+    },
+    {
       "name": "Amanda Chen",
-      "role": "Co-President",
+      "role": "Design Lab Lead, Senior Advisor",
       "major": "Information Science '26"
     },
     {
-      "name": "Claire Ahn",
-      "role": "Co-President",
-      "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Roman Chavez",
-      "role": "Treasurer",
-      "major": "Mathematics '25"
-    },
-    {
-      "name": "Athena Choi",
-      "role": "Social Chair, Editorial Co-lead",
-      "major": "English '25"
-    },
-    {
-      "name": "Evan Xin",
-      "role": "Web & Technology Chair",
-      "major": "Computer Science '26"
-    },
-    {
-      "name": "Cassie Li",
-      "role": "Design Lab Co-lead",
-      "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Matu Sriram",
-      "role": "Design Lab Co-lead",
-      "major": "Architecture '28"
+      "name": "Tami Weng",
+      "role": "Senior Advisor",
+      "major": "Information Science '26"
     },
     {
       "name": "Connie Zhang",
@@ -41,45 +36,55 @@
       "major": "ISST '27"
     },
     {
-      "name": "Charlie Mcdonnell",
-      "role": "Incubates Lead",
+      "name": "Erin Park",
+      "role": "Incubates Co-Lead",
+      "major": "DEA '27"
+    },
+    {
+      "name": "Es Sadri",
+      "role": "Incubates Co-Lead",
+      "major": "Fine Arts '26"
+    },
+    {
+      "name": "Dillon Bush",
+      "role": "Editorial Co-Lead",
       "major": "Architecture '28"
     },
     {
-      "name": "Dillion Bush",
-      "role": "Editorial Co-lead",
-      "major": "Architecture '28"
+      "name": "Lilian Cao",
+      "role": "Editorial Co-Lead",
+      "major": "DEA '27"
     }
   ],
   "editorial": [
     {
-      "name": "Athena Choi",
-      "role": "Editorial Co-lead",
-      "major": "English '25"
+      "name": "Dillon Bush",
+      "role": "Editorial Co-Lead",
+      "major": "Architecture '28"
     },
     {
-      "name": "Dillion Bush",
-      "major": "Editorial Co-lead",
+      "name": "Lilian Cao",
+      "major": "Editorial Co-Lead",
       "major2": "Architecture '28"
     }
   ],
   "designlab": [
     {
-      "name": "Cassie Li",
-      "role": "Design Lab Co-lead",
+      "name": "Amanda Chen",
+      "role": "Design Lab Co-Lead",
       "major": "Design and Environmental Analysis '25"
-    },
-    {
-      "name": "Matu Sriram",
-      "major": "Design Lab Co-lead",
-      "major2": "Architecture '28"
     }
   ],
   "incubates": [
     {
-      "name": "Charlie Mcdonnell",
-      "role": "Incubates Lead",
+      "name": "Erin Park",
+      "role": "Incubates Co-Lead",
       "major": "Architecture '28"
+    },
+    {
+      "name": "Es Sadri",
+      "role": "Incubates Co-Lead",
+      "major": "Fine Arts '26"
     }
   ],
   "praxis": [
