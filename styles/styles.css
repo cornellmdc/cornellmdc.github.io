@@ -20729,6 +20729,7 @@ a:hover {
 
 .section__purpose .dropdown-desc {
   font-size: 15px;
+  margin: 12px; 
 }
 
 .section__contact p {
